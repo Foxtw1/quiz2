@@ -11,7 +11,7 @@ class average {
         int e = 9;
 
 
-        System.out.println((a + b + c + d + e) / 5);
+        System.out.println((a + b + c + d + e) / 5.0);
 
     }
 }
