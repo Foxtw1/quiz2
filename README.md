@@ -1,1 +1,1 @@
-add all four integers up and then divide it by 4
+convert the code to a class file with javac average.java, then use java average
