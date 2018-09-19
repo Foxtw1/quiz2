@@ -14,14 +14,14 @@ class Countdown {
         
         
         while (min >= 0){
-            while (sec > 0 && sec < 60) {
+            if (sec > 0 && sec < 60) {
 
                 System.out.println("T-minus " + min + " minute " + sec + " seconds to launch");
 
                 sec = sec - 10;
 
             }
-            while ((sec == 0 || sec == 60) && min > 0) {
+            else if ((sec == 0 || sec == 60) && min > 0) {
 
                 
                 System.out.println("T-minus " + min + " minutes to launch");
@@ -32,7 +32,7 @@ class Countdown {
 
             }
 
-            if (min == 0 && sec == 0) {
+            else if (min == 0 && sec == 0) {
                 System.out.println("Missile Away!");
                 break;
             }
